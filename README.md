@@ -90,7 +90,7 @@ This endpoint updates an existing drink.
    {
     "id": 2,
     "name": "Latte",
-    "description": "A coffee drink made with espresso and steamed milk foam."
+    "description": "A coffee drink made with espresso and steamed milk foam.."
 }
 ```
 - `404 Not Found` : If the specified drink ID does not exist.
