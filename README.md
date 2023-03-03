@@ -111,6 +111,12 @@ That's it! This documentation should provide you with all the information you ne
 
 
 
+>
+>
+
+
+
+
 ## Xy-Drink API Installation
 
 Thank you for choosing the Xy-Drink API, which is built with Django REST framework. Here are the steps to get the API up and running.
@@ -120,7 +126,25 @@ Thank you for choosing the Xy-Drink API, which is built with Django REST framewo
 - pip package manager
 
 ## Installation
-1. Clone the repository from Github: git clone https://github.com/ehuntober/xy-drink-Api.git
-2. Navigate into the project directory: cd drink-api
-3. Install the required dependencies: pip install -r requirements.txt
-4. Create a new user with privileges to the database: createuser --interactive --pwprompt
+1. Clone the repository from Github: git clone `https://github.com/ehuntober/xy-drink-Api.git`
+2. Navigate into the project directory: `cd drink-api`
+3. Install the required dependencies: pip install -r `requirements.txt`
+4. Create a new user with privileges to the database: `createuser --interactive --pwprompt`
+5. Run database migrations: `python manage.py migrate`
+6. (Optional) Create a superuser for the Django admin interface: `python manage.py createsuperuser`
+7. Start the Django development server: `python manage.py runserver`
+8. The API should now be accessible at `http://localhost:8000/drinks/`
+
+## Usage
+You can use the Drink API with any REST client or HTTP library. For example, you can use the curl command to retrieve a list of drinks:
+
+`curl http://localhost:8000/api/drinks/`
+
+This should return a JSON response containing a list of drinks.
+
+# Conclusion
+That's it! You have successfully installed and started the Drink API. If you have any questions or feedback, please don't hesitate to contact us.
+
+
+
+
