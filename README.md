@@ -108,3 +108,19 @@ This endpoint deletes an existing drink.
 
 ## Conclusion
 That's it! This documentation should provide you with all the information you need to use the xy Drink API. If you have any questions or feedback, please don't hesitate to contact us.
+
+
+
+## Xy-Drink API Installation
+
+Thank you for choosing the Xy-Drink API, which is built with Django REST framework. Here are the steps to get the API up and running.
+
+## Prerequisites
+- Python 3.7 or later
+- pip package manager
+
+## Installation
+1. Clone the repository from Github: git clone https://github.com/ehuntober/xy-drink-Api.git
+2. Navigate into the project directory: cd drink-api
+3. Install the required dependencies: pip install -r requirements.txt
+4. Create a new user with privileges to the database: createuser --interactive --pwprompt
