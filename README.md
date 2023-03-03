@@ -111,11 +111,6 @@ That's it! This documentation should provide you with all the information you ne
 
 
 
->
->
-
-
-
 
 ## Xy-Drink API Installation
 
